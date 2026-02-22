@@ -1,0 +1,30 @@
+{
+  "name": "secure-notes-app",
+  "version": "1.0.0",
+  "description": "Secure notes application with encrypted file attachments",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": [
+    "notes",
+    "encryption",
+    "security",
+    "aes-256",
+    "jwt",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/secure-notes-app.git"
+  }
+}
